@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ff6600;
+    font-size: 2.5em;
+    font-weight: 600; /* Semi-bold for headings */
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6; /* Better readability */
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif; /* Consistent font for buttons */
+}
+
+button:hover {
+    background-color: #cc5200;
+}
